@@ -3,8 +3,12 @@ name: First Workflow
 
 # set trigger
 on:
+    push:
+        branches:
+            - main
+            
     workflow_dispatch:
-        
+
 jobs:
     print-message:
         runs-on: ubuntu-latest
