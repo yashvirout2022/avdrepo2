@@ -8,7 +8,7 @@ on:
             - main
 jobs:
     print-message:
-        runs-on: ubunutu-latest
+        runs-on: ubuntu-latest
         steps:
             # step1
             - name: print welcome message
